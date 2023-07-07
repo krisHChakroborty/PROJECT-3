@@ -1,0 +1,258 @@
+* {
+
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+    
+
+}
+
+
+
+
+.body {
+    background-image: url(img/krrish-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: 680px;
+    filter: blur(2px);
+    
+
+}
+body{
+    background: rgba(0,0,0,0.8)url(https://wallpaperswide.com/download/css_coding-wallpaper-1152x864.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+}
+
+.krrishPNG {
+    width: 100px;
+}
+
+.colorWhite {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: larger;
+    border: 1px solid rgb(11, 11, 192);
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:transparent;
+    letter-spacing: 2px;
+    box-shadow: blue -3px -7px 1px 2px;
+}
+.home{
+    position: relative;
+    right: 25%;
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue;
+    color: rgb(255, 255, 255);
+}
+
+.colorWhite:hover {
+    color: rgb(62, 48, 255);
+}
+
+.navbar-nav {
+
+    --bs-nav-link-hover-color: rgb(255 0 0 / 80%);
+
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: rgb(243 0 0);
+}
+
+.bg-dark {
+    background-image: url(https://e0.pxfuel.com/wallpapers/354/782/desktop-wallpaper-huge-lines-of-code.jpg);
+    border: 1px solid rgb(68, 66, 66);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} 
+
+.btn-close {
+    color: antiquewhite;
+    background-color: rgb(27, 126, 255);
+}
+
+.bg-green {
+    background-color: rgb(27, 126, 255);
+
+}
+
+.header_text {
+    color: rgb(198, 202, 199);
+    font-weight: lighter;
+    letter-spacing: 8px;
+    /* box-shadow: 1px 2px 19px 4px blue; */
+}
+
+.name {
+    color: rgb(22, 162, 255);
+    text-align: right;
+}
+
+button {
+    background-color: black;
+    border: none;
+}
+
+b {
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    height: 1px;
+    color: rgb(99, 124, 253);
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 25%;
+}
+
+.btn a {
+    width: fit-content;
+    text-decoration: none;
+    color: bisque;
+}
+.btn1{
+    border:1px solid rgb(103, 47, 255);
+    background-color: transparent;
+    box-shadow: 1px 2px 19px 4px blue;
+}
+
+.btnwidth {
+    width: 21%;
+    background-color: transparent;
+    margin-top: 5%;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-left: 10%;
+    border: 1px solid blue;
+    color: white;
+    box-shadow: 1px 2px 19px 4px blue;
+    position: relative;
+    right: 26px;
+}
+
+.login {
+    position: relative;
+    left: 23%;
+    border: 1px solid blue;
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue;
+}
+
+.logout {
+    position: relative;
+    left: 24%;
+    border: 1px solid blue;
+    background-color: transparent;
+    box-shadow: 1px 2px 19px 4px blue;
+}
+.headerlinks {
+    margin-top: 60px;
+}
+
+.btn_width {
+    padding: 1px;
+    /* text-align: center; */
+    font-size: 21px;
+    font-family: system-ui;
+
+    /* color: black; */
+    /* border: 1px solid black; */
+}
+
+.btn_width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:870px) {
+    body {
+        background-image: url(https://web-dev.imgix.net/image/admin/ltK4SNRultTnkbimOySm.jpg?auto=format);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        /* background-blend-mode:luminosity; */
+    }
+
+    .name {
+        color: rgb(28, 126, 255);
+    }
+
+    .header_text {
+        color: rgb(255, 255, 255);
+    }
+
+    .login,
+    .logout {
+        display: none;
+    }
+
+    hr{
+        background-color: black;
+        height: 3px;
+    }
+
+    .headerlinks {
+        margin-top: 20px;
+    }
+
+    .btnwidth{
+        margin-left: 70%;
+    }
+    header{
+        margin-top: 50px;
+    }
+    .login1, .logout2{
+        display: inline;
+     }
+     .home {
+        position: relative;
+        right: 36%;
+        top: 65px;
+        width: 86px;
+        background-color: transparent;
+        box-shadow: blue 1px 2px 19px 4px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-width:2000px){
+    .login1, .logout2{
+       display: none;
+    }
+    
+}
+
+@media only screen and (max-width:870px){
+    .login1, .logout2{
+       display: inline-block;
+    }
+}
+
+@media only screen and (max-width:4000px){
+    .login1, .logout2{
+       display: none;
+    }
+    
+}
+
