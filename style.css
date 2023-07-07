@@ -194,6 +194,10 @@ hr {
     box-shadow: 1px 2px 19px 4px blue;
     border: none;
 }
+.yellow:hover{
+    background-color: rgb(196, 0, 0);
+   
+}
 /*hire-me, my-cv, my-works*/
 
 
