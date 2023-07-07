@@ -37,13 +37,12 @@ body{
     font-size: larger;
     border: 1px solid rgb(11, 11, 192);
     display: flex;
-    /* text-align: center; */
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color:transparent;
+    background-color: transparent;
     letter-spacing: 2px;
-    box-shadow: blue -3px -7px 1px 2px;
+    box-shadow: #22227e 0px -1px 8px 5px;
 }
 .home{
     position: relative;
@@ -51,6 +50,7 @@ body{
     background-color:transparent ;
     box-shadow: 1px 2px 19px 4px blue;
     color: rgb(255, 255, 255);
+    border: none;
 }
 
 .colorWhite:hover {
@@ -142,7 +142,7 @@ hr {
     font-weight: 900;
     letter-spacing: 4px;
     margin-left: 10%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color: white;
     box-shadow: 1px 2px 19px 4px blue;
     position: relative;
@@ -222,9 +222,12 @@ hr {
     header{
         margin-top: 50px;
     }
+
     .login1, .logout2{
-        display: inline;
+        display: inline-block;
      }
+
+
      .home {
         position: relative;
         right: 36%;
