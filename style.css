@@ -373,3 +373,9 @@ hr {
     background-color: white;
  
 }
+
+@media only screen and (max-width:870px){
+    .about_me{
+        margin-top: 50px;
+    }
+}
