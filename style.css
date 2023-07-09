@@ -327,6 +327,9 @@ hr {
     .login1, .logout2{
        display: none;
     }
+    body{
+        height: 100vh;
+    }
     
 }
 
@@ -374,7 +377,7 @@ hr {
  
 }
 
-@media only screen and (max-width:580px){
+@media only screen and (max-width:990px){
     .about_me{
         margin-top: 50px;
     }
@@ -439,16 +442,36 @@ hr {
 }
 
 .icon {
-    background-color: blue;
+    /* background-color: blue; */
     padding: 16px;
     border-radius: 4px;
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue; 
 }
 
 #exampleFormControlInput1{
     background-color: #2e2d2d;
     color: rgb(195, 199, 201);
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue; 
 }
 .footer_btn{
     background-color:transparent ;
     box-shadow: 1px 2px 19px 4px blue; 
+}
+
+.icon2 {
+    /* background-color: blue; */
+    padding: 15px;
+    border-radius: 7px;
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue; 
+   
+}
+
+.footer_links li{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(176, 178, 181);
+
 }
