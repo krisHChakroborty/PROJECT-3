@@ -2,7 +2,7 @@
 
     text-decoration: none;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Caprasimo', cursive;
 }
 
 
@@ -438,15 +438,17 @@ hr {
  
 }
 
-.icon{
+.icon {
     background-color: blue;
-    padding: 12px;
-    
-}
-.fb{
-    background-color: blue;
+    padding: 16px;
+    border-radius: 4px;
 }
 
-
-
-
+#exampleFormControlInput1{
+    background-color: #2e2d2d;
+    color: rgb(195, 199, 201);
+}
+.footer_btn{
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue; 
+}
