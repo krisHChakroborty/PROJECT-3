@@ -3,6 +3,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Caprasimo', cursive;
+    box-sizing: border-box;
 }
 
 
@@ -362,12 +363,12 @@ hr {
 /* second section start */
 
 .second_sec_img {
+    border-radius: 100%;
     width: 100%;
-    height: 510px;
-    /* filter: blur(2px); */
-    border: 1px solid black;
-    box-shadow: blue 1px 5px 15px 0px;
- 
+    height: 428px;
+    filter: blur(1px);
+    /* border: 1px solid black; */
+    box-shadow: blue 1px 5px 44px -14px;
 }
 
 .border {
