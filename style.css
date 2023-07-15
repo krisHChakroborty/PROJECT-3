@@ -363,7 +363,7 @@ hr {
     height: 510px;
     /* filter: blur(2px); */
     border: 1px solid black;
-    box-shadow: blue 1px 2px 19px 4px;
+    box-shadow: blue 1px 5px 15px 0px;
  
 }
 
@@ -374,9 +374,21 @@ hr {
  
 }
 
-@media only screen and (max-width:870px){
+@media only screen and (max-width:580px){
     .about_me{
         margin-top: 50px;
+    }
+
+    .margin_top{
+        margin-top: 40px;
+    }
+
+    .innerimg{
+        width: 100%;
+    }
+
+    .img10{
+        display: none;
     }
 }
 
@@ -389,5 +401,52 @@ hr {
 
 
 .third_section{
-    background-color: #565656;
+    background-color: #2e2d2d;
 }
+.transperant{
+    /* border: 1px solid blue; */
+    background-color:transparent ;
+    box-shadow: 1px 2px 19px 4px blue; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fluid {
+    max-width: 154%;
+    height: auto;
+}
+.fluid:hover {
+    max-width: 170%;
+    height: auto;
+}
+.img10{
+   
+    border: none;
+    border-radius: 10px;
+ 
+}
+
+.icon{
+    background-color: blue;
+    padding: 12px;
+    
+}
+.fb{
+    background-color: blue;
+}
+
+
+
+
