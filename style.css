@@ -4,17 +4,19 @@
     list-style: none;
     font-family: 'Caprasimo', cursive;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 
 }
 
 
 
 body{
-    background: rgba(0,0,0,0.8)url(https://uploads-ssl.webflow.com/5ffd5ee7d7c77a1f37e2a88e/60838f817a8a7202e85c4756_5ec627b2d0d5ff8e793e2c98_man-using-laptop-on-table-against-white-background-257897.jpeg);
+    background: rgba(0,0,0,0.8)url(https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&w=1000&q=80);
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-position: center top; */
     background-blend-mode:darken;
-    background-position: bottom center;
+    background-position: left;
     background-attachment: fixed;
 }
 
@@ -406,7 +408,7 @@ hr {
 
 
 .third_section{
-    background-color: #2e2d2d;
+    background-color:transparent;
 }
 .transperant{
     /* border: 1px solid blue; */
